@@ -1,11 +1,11 @@
 {
-    "name": "PK360 Live",
-    "short_name": "Pakistan 360 Live",
+    "name": "Pakistan TV",
+    "short_name": "Pakistan Live TV",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#fff",
-    "theme_color": "#fff",
-    "description": "Pakistan 360 Live",
+    "background_color": "#000",
+    "theme_color": "#000",
+    "description": "Pakistan Live TV",
     "orientation": "portrait-primary",
     "prefer_related_applications": true,
     "icons": [
