@@ -31,11 +31,13 @@ const RESOURCES = {
 "favicon.png": "76d2f53d34d3046d01ba1056a815498a",
 "icons/Icon-192.png": "07c558315314a0fd6752db25f4d98684",
 "icons/Icon-512.png": "4b59a480d1d03c5cfeeb2ae720864c66",
-"index.html": "fd458ef986d913214debca7dd0ce45c2",
-"/": "fd458ef986d913214debca7dd0ce45c2",
-"main.dart.js": "d2f11a4845f34141e6076cf00e521e33",
+"index.html": "5f877b9b3a9ef768b2a425f796e68352",
+"/": "605259ebaebc879fbcec3003d9ed5271",
+"main.dart.js": "841d2d69b11ec1429840ff818fae42dc",
 "manifest.json": "11f66d3c669b62b7fb52f84545ed36d1",
+"privacy/index.html": "605259ebaebc879fbcec3003d9ed5271",
 "script.js": "623f98325a78e17972d5d940e2783ad3",
+"sitemap/sitemap.xml": "154ac105530b5290b50b529645817849",
 "version.json": "5471bce5b5ea3c135ca120a7de740939"
 };
 
