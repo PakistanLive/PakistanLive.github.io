@@ -45,7 +45,7 @@ const RESOURCES = {
 "favicon.png": "3a5c333dd3b24cd52f9512e25b3f7415",
 "icons/Icon-192.png": "6f42d7b3a7b1fc930eb89f3bc0e14ef0",
 "icons/Icon-512.png": "190bb6660e185ec13023eefdbac31f1c",
-"index.html": "ad4bed84f901a5a92827561906c98a32",
+"index.html": "25705d421db388d150fbeee06b44f5b5",
 "/": "605259ebaebc879fbcec3003d9ed5271",
 "main.dart.js": "4abad70bfb048177ac8e0bb695370831",
 "manifest.json": "cb2dc53c5d06881ee967ba8dd1694c60",
@@ -53,6 +53,7 @@ const RESOURCES = {
 "script.js": "623f98325a78e17972d5d940e2783ad3",
 "service-worker.js": "f733d78ed0caa99fa9cb0f7499d27904",
 "sitemap/sitemap.xml": "154ac105530b5290b50b529645817849",
+"sw.js": "e64ebbe41f0d14d5f1c77979a05235d4",
 "version.json": "5471bce5b5ea3c135ca120a7de740939"
 };
 
