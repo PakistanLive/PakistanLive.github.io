@@ -33,7 +33,7 @@ const RESOURCES = {
 "assets/assets/sports/ptvsports.png": "7f651d15f6acfb008dac954a94d67e53",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "8bf6d679cf5d4a0f67e8c0148ca249f9",
+"assets/NOTICES": "8e2259a6afd7eea498bb750466cca203",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/flutter_inappwebview/t_rex_runner/t-rex.css": "5a8d0222407e388155d7d1395a75d5b9",
 "assets/packages/flutter_inappwebview/t_rex_runner/t-rex.html": "16911fcc170c8af1c5457940bd0bf055",
@@ -47,13 +47,13 @@ const RESOURCES = {
 "icons/Icon-512.png": "190bb6660e185ec13023eefdbac31f1c",
 "index.html": "51ba64273c98a830e84f4fa2ea5ffa77",
 "/": "605259ebaebc879fbcec3003d9ed5271",
-"main.dart.js": "4abad70bfb048177ac8e0bb695370831",
+"main.dart.js": "4cfc097fe8c2721b6a78cc6621313700",
 "manifest.json": "cb2dc53c5d06881ee967ba8dd1694c60",
 "privacy/index.html": "605259ebaebc879fbcec3003d9ed5271",
 "script.js": "623f98325a78e17972d5d940e2783ad3",
 "service-worker.js": "f733d78ed0caa99fa9cb0f7499d27904",
 "sitemap/sitemap.xml": "154ac105530b5290b50b529645817849",
-"version.json": "5471bce5b5ea3c135ca120a7de740939"
+"version.json": "4f9b27e5d7c05b09729b4aa3e0a84a64"
 };
 
 // The application shell files that are downloaded before a service worker can
