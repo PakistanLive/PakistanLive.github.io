@@ -47,12 +47,12 @@ const RESOURCES = {
 "icons/Icon-512.png": "190bb6660e185ec13023eefdbac31f1c",
 "index.html": "51ba64273c98a830e84f4fa2ea5ffa77",
 "/": "605259ebaebc879fbcec3003d9ed5271",
-"main.dart.js": "4cfc097fe8c2721b6a78cc6621313700",
+"main.dart.js": "521963de19657ed52fc63c4c55fe4ece",
 "manifest.json": "cb2dc53c5d06881ee967ba8dd1694c60",
 "privacy/index.html": "605259ebaebc879fbcec3003d9ed5271",
 "script.js": "623f98325a78e17972d5d940e2783ad3",
 "service-worker.js": "f733d78ed0caa99fa9cb0f7499d27904",
-"sitemap/sitemap.xml": "154ac105530b5290b50b529645817849",
+"sitemap/sitemap.xml": "c8581a641a3e58a69470265365332ea3",
 "version.json": "4f9b27e5d7c05b09729b4aa3e0a84a64"
 };
 
