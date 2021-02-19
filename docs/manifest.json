@@ -1,7 +1,7 @@
 {
     "name": "Pakistan Live TV",
     "short_name": "Pakistan Live TV",
-    "start_url": ".",
+    "start_url": "https://pakistanlive.tv",
     "display": "standalone",
     "background_color": "#000",
     "theme_color": "#000",

@@ -1,0 +1,27 @@
+html,body{
+  height: 100%;
+  margin: 0;
+
+}
+h1,h2,h3,h4,h5,h6,body,article,main,p{
+color:black;
+
+}::selection { color: black; }
+
+/* h1::selection { color: black; } */
+.top-heading{
+  margin-top: 0;
+}
+.parent-div{
+
+  margin: 0;
+height: 100%;
+  background-color:black;
+}
+
+.child-div{
+  width: 100%;
+text-align: center;
+position: relative;
+top:30%;
+}
