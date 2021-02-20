@@ -11418,12 +11418,11 @@ break
 case C.p:s=c.a/a.a<0.33
 break
 default:throw H.a(H.h(u.I))}return s},
-Dx:function Dx(a,b,c,d,e){var _=this
+Dx:function Dx(a,b,c,d){var _=this
 _.c=a
 _.d=b
 _.y=c
-_.go=d
-_.a=e},
+_.a=d},
 xb:function xb(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3){var _=this
 _.c=a
 _.d=b
@@ -37522,7 +37521,7 @@ return s}}
 V.RA.prototype={
 i:function(a){return"AnchorType.bottom"}}
 V.Rt.prototype={
-i:function(a){return"AdSizeType.SmartBanner"}}
+i:function(a){return"AdSizeType.WidthAndHeight"}}
 V.Rs.prototype={}
 V.q_.prototype={
 gbq:function(a){return H.db(this)},
@@ -37532,7 +37531,7 @@ n:function(a){$.Gm.m(0,H.db(this),null)
 return V.ot("disposeAd",P.ad(["id",H.db(this)],t.X,t.z))}}
 V.Da.prototype={
 eK:function(a){var s=H.db(this),r=this.a.hw()
-return V.ot("loadBannerAd",P.ad(["id",s,"adUnitId",this.b,"targetingInfo",r,"width",0,"height",0,"adSizeType","AdSizeType.SmartBanner"],t.X,t.z))}}
+return V.ot("loadBannerAd",P.ad(["id",s,"adUnitId",this.b,"targetingInfo",r,"width",468,"height",60,"adSizeType","AdSizeType.WidthAndHeight"],t.X,t.z))}}
 V.Fw.prototype={
 eK:function(a){var s=H.db(this),r=this.a.hw()
 return V.ot("loadInterstitialAd",P.ad(["id",s,"adUnitId",this.b,"targetingInfo",r],t.X,t.z))}}
@@ -40578,8 +40577,8 @@ return s}}
 F.Ac.prototype={$idy:1}
 F.KZ.prototype={}
 E.Dx.prototype={
-G:function(a,b){var s=this,r=null
-return new E.xb(s.c,s.d,r,r,C.zC,r,r,!0,r,!0,r,r,s.y,r,!1,r,r,r,r,s.go,r,!1,r)}}
+G:function(a,b){var s=null
+return new E.xb(this.c,this.d,s,s,C.zC,s,s,!0,s,!0,s,s,this.y,s,!1,s,s,s,s,s,s,!1,s)}}
 E.xb.prototype={
 al:function(){return new E.AN(P.bB(t.ui),new N.bg(null,t.J),null,C.k)}}
 E.AN.prototype={
@@ -40657,7 +40656,9 @@ m=V.iB(b6.a.go,r,o)
 l=m==null?V.iB(q.cx,r,o):m
 l=(l==null?C.Dz:l).mU(n)
 o=b6.a
-k=o.rx
+o.toString
+k=q.dy
+if(k==null)k=0
 j=q.fr
 if(j==null)j=8
 i=q.f
@@ -66074,7 +66075,7 @@ s=t.Y
 k=E.m3(H.c([B.f6(l,L.b9(C.zy,l,l),new D.abg(),l)],s),C.L,!0,0,j,k)
 j=H.c([U.aCJ(b)],s)
 r=L.b4("Download Android App",l,l,l,l,l,l,l)
-j.push(R.mX(!1,!0,new E.Dx(L.b9(C.zi,l,15),r,C.an,5,l),l,!0,C.L,l,C.L,C.L,l,l,l,l,l,new D.abh(this),l,l,l,C.L,l))
+j.push(R.mX(!1,!0,new E.Dx(L.b9(C.zi,l,15),r,C.an,l),l,!0,C.L,l,C.L,C.L,l,l,l,l,l,new D.abh(this),l,l,l,C.L,l))
 $.am()
 r=$.bf
 if(r==null)r=$.bf=new E.cQ()
@@ -66133,7 +66134,7 @@ n.e=p
 try{if(J.dt($.j9().appVersion,"Android ")){V.EK()
 R.EL(new R.acp(),"916297865784542_918543578893304")
 $.ahE().LX(0,"ca-app-pub-2034555996845072~5528077515")
-s=V.ani(!1,"https://pakistanlive.tv",H.c(["pakistan","live","tv","sports","news","cricket","latest"],t.i))
+s=V.ani(!1,"https://pakistanlive.tv",H.c(["news","sports","cricket"],t.i))
 n.f=V.alD("ca-app-pub-2034555996845072/3961319755",new R.acq(),C.qZ,s)
 n.r=V.amY("ca-app-pub-2034555996845072/1132810585",new R.acr(),s)}n.f.eK(0)
 n.r.eK(0)}catch(o){r=H.S(o)
@@ -66162,7 +66163,7 @@ R.acn.prototype={
 $0:function(){this.a.e.jb(0)},
 $S:2}
 R.acp.prototype={
-$2:function(a,b){if(a===C.nB)R.EM(6e4)},
+$2:function(a,b){if(a===C.nB)R.EM(39e3)},
 $S:152}
 R.acq.prototype={
 $1:function(a){P.eX("BannerAd event is "+a.i(0))
@@ -66191,7 +66192,7 @@ try{o.e=Y.ayl(o.a.d)}catch(p){s=H.S(p)
 P.eX(C.c.I("Error Youtube",J.b7(s)))}try{if(J.dt($.j9().appVersion,"Android ")){V.EK()
 R.EL(new T.acx(),"916297865784542_918543578893304")
 $.ahE().LX(0,"ca-app-pub-2034555996845072~5528077515")
-r=V.ani(!1,"https://pakistanlive.tv",H.c(["pakistan","live","tv","sports","news","cricket","latest"],t.i))
+r=V.ani(!1,"https://pakistanlive.tv",H.c(["news","sports","cricket"],t.i))
 o.f=V.alD("ca-app-pub-2034555996845072/3961319755",new T.acy(),C.qZ,r)
 o.r=V.amY("ca-app-pub-2034555996845072/1132810585",new T.acz(),r)}o.f.eK(0)
 o.r.eK(0)}catch(p){q=H.S(p)
@@ -66213,7 +66214,7 @@ q=t.Y
 r=E.m3(H.c([T.xQ(H.c([L.b4(p.a.c,o,o,o,o,B.dS(o,17,C.W),C.ao,o),T.cS(o,o,10),new T.cj(new V.aq(0,5,0,5),U.vM(p.a.e,C.n1,50,o),o),T.cS(o,o,10)],q),C.a4,C.a8,C.a9)],q),C.L,!0,0,r,o)}else r=o
 return new D.za(s,M.lp(r,o,new A.w5(new T.acw(p),o),!1),o)}}
 T.acx.prototype={
-$2:function(a,b){if(a===C.nB)R.EM(6e4)},
+$2:function(a,b){if(a===C.nB)R.EM(39e3)},
 $S:152}
 T.acy.prototype={
 $1:function(a){P.eX("BannerAd event is "+a.i(0))
