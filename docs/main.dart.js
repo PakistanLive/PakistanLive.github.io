@@ -66231,17 +66231,17 @@ return new D.ML(s.eP(0,null,t.cF),C.k)}}
 D.ML.prototype={
 ay:function(){this.d.f2()
 this.aX()},
-G:function(a,b){var s,r,q,p,o,n,m,l=null,k="assets/sports/ptvsports.png",j=L.aY("Pakistan Live TV",l,l,l,l,B.dy(l,25,C.S),C.ao,l),i=K.at(b).K.cx===C.v?L.aS(C.rW,l,l):L.aS(C.rU,l,l)
-i=B.dK(l,i,new D.aby(b),l)
+G:function(a,b){var s,r,q,p,o,n,m,l=null,k="assets/sports/ptvsports.png",j="assets/entertainment/cartoonurdu.png",i=L.aY("Pakistan Live TV",l,l,l,l,B.dy(l,25,C.S),C.ao,l),h=K.at(b).K.cx===C.v?L.aS(C.rW,l,l):L.aS(C.rU,l,l)
+h=B.dK(l,h,new D.aby(b),l)
 s=t.Y
-j=E.jb(H.c([B.dK(l,L.aS(C.zK,l,l),new D.abz(),l)],s),C.y,!0,0,i,j)
-i=H.c([U.aDg(b)],s)
+i=E.jb(H.c([B.dK(l,L.aS(C.zK,l,l),new D.abz(),l)],s),C.y,!0,0,h,i)
+h=H.c([U.aDg(b)],s)
 r=L.aY("Download Android App",l,l,l,l,l,l,l)
-i.push(R.lb(!1,!0,E.amr(L.aS(C.zw,l,15),l,C.am,r),l,!0,C.y,l,C.y,C.y,l,l,l,l,l,new D.abA(this),l,l,l,C.y,l))
-i.push(T.cB(l,15,l))
+h.push(R.lb(!1,!0,E.amr(L.aS(C.zw,l,15),l,C.am,r),l,!0,C.y,l,C.y,C.y,l,l,l,l,l,new D.abA(this),l,l,l,C.y,l))
+h.push(T.cB(l,15,l))
 r=C.B9.h(0,700)
 q=L.aY("PSL 6 Fixtures",l,l,l,l,A.fr(l,l,C.j,l,l,l,l,l,l,l,l,l,l,l,l,l,!0,l,l,l,l,l,l),l,l)
-i.push(R.lb(!1,!0,E.amr(L.aS(C.zv,C.j,15),r,C.am,q),l,!0,C.y,l,C.y,C.y,l,l,l,l,l,new D.abB(),l,l,l,C.y,l))
+h.push(R.lb(!1,!0,E.amr(L.aS(C.zv,C.j,15),r,C.am,q),l,!0,C.y,l,C.y,C.y,l,l,l,l,l,new D.abB(),l,l,l,C.y,l))
 $.ae()
 q=$.b8
 r=q==null?$.b8=new E.cI():q
@@ -66253,14 +66253,14 @@ n=C.Bv.h(0,700)
 m=H.c([S.d2("assets/psl/psl.png","PSL Live",p.L),S.d2("assets/sports/geosuper.png","GEO SUPER",p.t)],s)
 if(J.cF($.f1().appVersion,"Android "))m.push(S.d2(k,"PTV SPORTS",p.be))
 m.push(S.d2(k,"CRICKET",p.bo))
-i.push(T.dl(H.c([r,o,new Z.pg(20,2,150,150,n,l),E.k_(new T.c2(C.rD,T.qI(H.c([T.o9(C.fn,m,C.mj,C.fn,0,8)],s),C.Z,C.a2,C.a6),l),new L.f4(l),C.m)],s),C.Z,C.a2,C.a6))
+h.push(T.dl(H.c([r,o,new Z.pg(20,2,150,150,n,l),E.k_(new T.c2(C.rD,T.qI(H.c([T.o9(C.fn,m,C.mj,C.fn,0,8)],s),C.Z,C.a2,C.a6),l),new L.f4(l),C.m)],s),C.Z,C.a2,C.a6))
 r=$.b8
 p=(r==null?$.b8=new E.cI():r).eP(0,l,q)
-i.push(T.dl(H.c([T.cB(l,20,l),L.aY("Entertainment Channels",l,l,l,l,B.dy(l,20,C.S),l,l),new Z.pg(20,2,150,150,C.oF,l),E.k_(new T.c2(C.rD,T.qI(H.c([T.o9(C.fn,H.c([S.d2("assets/entertainment/cartoonurdu.png","Cartoon Network Urdu",p.b_),S.d2("assets/entertainment/cartoonenglish.png","Cartoon Network English",p.aV),S.d2("assets/entertainment/geo.png","Geo Entertainment",p.aj)],s),C.mj,C.fn,0,8)],s),C.Z,C.a2,C.a6),l),new L.f4(l),C.m)],s),C.Z,C.a2,C.a6))
+h.push(T.dl(H.c([T.cB(l,20,l),L.aY("Entertainment Channels",l,l,l,l,B.dy(l,20,C.S),l,l),new Z.pg(20,2,150,150,C.oF,l),E.k_(new T.c2(C.rD,T.qI(H.c([T.o9(C.fn,H.c([S.d2(j,"CARTOON HINDI/URDU",p.b_),S.d2(j,"CARTOON NETWORK",p.aV),S.d2("assets/entertainment/geo.png","GEO ENTERTAINMENT",p.aj)],s),C.mj,C.fn,0,8)],s),C.Z,C.a2,C.a6),l),new L.f4(l),C.m)],s),C.Z,C.a2,C.a6))
 r=$.b8
 p=(r==null?$.b8=new E.cI():r).eP(0,l,q)
-i.push(T.dl(H.c([T.cB(l,20,l),L.aY("Live News Updates",l,l,l,l,B.dy(l,20,C.S),l,l),new Z.pg(20,2,100,100,C.oD.h(0,700),l),T.o9(C.aZ,H.c([S.d2("assets/news/nbc.png","NBC NEWS",p.r2),S.d2("assets/news/ptvworld.png","PTV WORLD",p.k4),S.d2("assets/news/ptvnews.png","PTV NEWS",p.k3),S.d2("assets/news/dunya.png","DUNYA NEWS",p.k1),S.d2("assets/news/geo.png","GEO NEWS",p.rx),S.d2("assets/news/express.jpg","EXPRESS NEWS",p.k2),S.d2("assets/news/samaa.png","SAMAA NEWS",p.x1),S.d2("assets/news/sky.png","SKY NEWS",p.r1),S.d2("assets/news/ary.png","ARY NEWS",p.ry),S.d2("assets/news/bol.png","BOL NEWS",p.x2),S.d2("assets/news/92.png","92 NEWS",p.y1),S.d2("assets/news/gnn.png","GNN NEWS",p.y2),S.d2("assets/news/hum.png","HUM NEWS",p.a4),S.d2("assets/news/dawn.jpg","DAWN NEWS",p.aq),S.d2("assets/news/aaj.png","AAJ NEWS",p.aw)],s),C.hR,C.aZ,8,8)],s),C.Z,C.a2,C.a6))
-return M.iS(j,l,M.bR(l,T.bK(E.k_(T.dl(i,C.Z,C.a2,C.a6),new L.f4(l),C.l),l,l),l,l,l,l,l,l,l,l),!1)}}
+h.push(T.dl(H.c([T.cB(l,20,l),L.aY("Live News Updates",l,l,l,l,B.dy(l,20,C.S),l,l),new Z.pg(20,2,100,100,C.oD.h(0,700),l),T.o9(C.aZ,H.c([S.d2("assets/news/nbc.png","NBC NEWS",p.r2),S.d2("assets/news/ptvworld.png","PTV WORLD",p.k4),S.d2("assets/news/ptvnews.png","PTV NEWS",p.k3),S.d2("assets/news/dunya.png","DUNYA NEWS",p.k1),S.d2("assets/news/geo.png","GEO NEWS",p.rx),S.d2("assets/news/express.jpg","EXPRESS NEWS",p.k2),S.d2("assets/news/samaa.png","SAMAA NEWS",p.x1),S.d2("assets/news/sky.png","SKY NEWS",p.r1),S.d2("assets/news/ary.png","ARY NEWS",p.ry),S.d2("assets/news/bol.png","BOL NEWS",p.x2),S.d2("assets/news/92.png","92 NEWS",p.y1),S.d2("assets/news/gnn.png","GNN NEWS",p.y2),S.d2("assets/news/hum.png","HUM NEWS",p.a4),S.d2("assets/news/dawn.jpg","DAWN NEWS",p.aq),S.d2("assets/news/aaj.png","AAJ NEWS",p.aw)],s),C.hR,C.aZ,8,8)],s),C.Z,C.a2,C.a6))
+return M.iS(i,l,M.bR(l,T.bK(E.k_(T.dl(h,C.Z,C.a2,C.a6),new L.f4(l),C.l),l,l),l,l,l,l,l,l,l,l),!1)}}
 D.aby.prototype={
 $0:function(){if(K.at(this.a).K.cx===C.v){$.ae()
 var s=$.cq()
