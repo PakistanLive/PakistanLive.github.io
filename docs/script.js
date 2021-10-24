@@ -1,11 +1,11 @@
 var firebaseConfig = {
-  apiKey: "AIzaSyBUT0DiByBXAUdNk-7qlG9qnc8PLshWm3A",
-  authDomain: "pakistanlive-tv.firebaseapp.com",
-  projectId: "pakistanlive-tv",
-  storageBucket: "pakistanlive-tv.appspot.com",
-  messagingSenderId: "530230976335",
-  appId: "1:530230976335:web:910badb3f9ead17722af3a",
-  measurementId: "G-3JCYP9X2KL"
+  apiKey: "AIzaSyCv_opmY9D-g2PlrGQGlLn2r_w5VfyX5IM",
+  authDomain: "pakistanliveapp.firebaseapp.com",
+  projectId: "pakistanliveapp",
+  storageBucket: "pakistanliveapp.appspot.com",
+  messagingSenderId: "458760902226",
+  appId: "1:458760902226:web:6a6e24bf273099967e718b",
+  measurementId: "G-XKK8XP816Z"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
