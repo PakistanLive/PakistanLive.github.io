@@ -8,7 +8,7 @@ const RESOURCES = {
 "/": "0af172624013c95dca675421312a046c",
 "privacy/index.html": "0af172624013c95dca675421312a046c",
 "CNAME": "2134b3a8e2b979661fedbdd9549f56b5",
-"main.dart.js": "877bc48078b7ed78bce5431aac7ede38",
+"main.dart.js": "d74fd836deec9518ed17dcb668b9339d",
 "404.html": "3426d30d0abff149c5b68296c242d508",
 "sitemap/sitemap.xml": "90306837f25c5be02cec506c01f979a4",
 "app-ads.txt": "edbf102392f4daa9da625b4fff62b873",
