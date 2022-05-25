@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://pakistanlive.tv/sitemap/sitemap.xml
+Sitemap: https://pakistanlive.tv/sitemap.xml
