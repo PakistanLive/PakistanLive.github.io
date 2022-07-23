@@ -68,7 +68,7 @@
   <body>
     <div>
       <iframe
-        id="iFrame"
+        id="frameID"
         src="https://www.mjunoon.tv/"
         style="position: fixed; left: 0px; top: 0px"
         width="100%"
@@ -81,6 +81,22 @@
       ></iframe>
     </div>
     <script>
+      var iframe = document.getElementById("frameID"),
+        iframeWin = iframe.contentWindow || iframe,
+        iframeDoc = iframe.contentDocument || iframeWin.document;
+
+      window.hello = function () {
+        alert("hello from owner!");
+      };
+
+      $(iframeDoc).ready(function (event) {
+        iframeDoc.open();
+        iframeDoc.write("iframe here");
+        iframeDoc.write('\<script>alert("hello from iframe!");\<\/script>');
+        iframeDoc.write("\<script>parent.hello();\<\/script>");
+        iframeDoc.close();
+      });
+
       // var iframeDocument =
       //   document.getElementsByTagName("iframe")[0].contentDocument;
       // setInterval(function () {
