@@ -83,9 +83,16 @@
       var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
       var iframeBody = innerDoc.getElementsByTagName("body")[0];
       iframeBody.style.overflow = "hidden";
-      
-      document.getElementsByClassName("uk-container uk-container-expand")[0].style.display="none";
-      document.getElementsByClassName("logo")[0].style.display="none";
+
+      // document.getElementsByClassName("uk-container uk-container-expand")[0].style.display="none";
+      // timmer
+      var timmer = setInterval(function () {
+        iframeBody.style.overflow = "hidden";
+        document.getElementsByClassName("logo")[0].style.display = "none";
+        document.getElementsByClassName(
+          "uk-width-1-1 uk-first-column"
+        )[0].style.display = "none";
+      }, 100);
     </script>
   </body>
 </html>
