@@ -80,25 +80,21 @@
       ></iframe>
     </div>
     <script>
-      var iframe = document.getElementsByTagName("iframe")[0];
-      var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
-      var iframeBody = innerDoc.getElementsByTagName("body")[0];
-      iframeBody.style.overflow = "hidden";
-
+      // var iframe = document.getElementsByTagName("iframe")[0];
+      // var innerDoc = iframe.contentDocument || iframe.contentWindow.document;
+      // var iframeBody = innerDoc.getElementsByTagName("body")[0];
+      // iframeBody.style.overflow = "hidden";
       // document.getElementsByClassName("uk-container uk-container-expand")[0].style.display="none";
-      // timmer
-      var timmer = window.setInterval(function () {
-        iframeBody.style.overflow = "hidden";
-        document
-          .getElementById("iFrame")
-          .contentWindow.getElementsByClassName("logo")[0].style.display =
-          "none";
-        document
-          .getElementById("iFrame")
-          .contentWindow.getElementsByClassName(
-            "uk-width-1-1 uk-first-column"
-          )[0].style.display = "none";
-      }, 100);
+
+      window.removeData = setInterval(function () {
+        document.getElementsByClassName("logo")[0].style.display = "none";
+        document.getElementsByClassName(
+          "uk-width-1-1 uk-first-column"
+        )[0].style.display = "none";
+      }, 2000);
+
+      var iFrame = document.getElementById("iFrame");
+      iFrame.contentWindow.removeData();
     </script>
   </body>
 </html>
