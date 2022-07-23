@@ -68,6 +68,7 @@
   <body>
     <div>
       <iframe
+        id="iFrame"
         src="https://www.mjunoon.tv/"
         style="position: fixed; left: 0px; top: 0px"
         width="100%"
@@ -88,10 +89,15 @@
       // timmer
       var timmer = window.setInterval(function () {
         iframeBody.style.overflow = "hidden";
-        document.getElementsByClassName("logo")[0].style.display = "none";
-        document.getElementsByClassName(
-          "uk-width-1-1 uk-first-column"
-        )[0].style.display = "none";
+        document
+          .getElementById("iFrame")
+          .contentWindow.getElementsByClassName("logo")[0].style.display =
+          "none";
+        document
+          .getElementById("iFrame")
+          .contentWindow.getElementsByClassName(
+            "uk-width-1-1 uk-first-column"
+          )[0].style.display = "none";
       }, 100);
     </script>
   </body>
