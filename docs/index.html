@@ -86,15 +86,22 @@
       // iframeBody.style.overflow = "hidden";
       // document.getElementsByClassName("uk-container uk-container-expand")[0].style.display="none";
 
-      window.removeData = setInterval(function () {
-        document.getElementsByClassName("logo")[0].style.display = "none";
-        document.getElementsByClassName(
-          "uk-width-1-1 uk-first-column"
-        )[0].style.display = "none";
-      }, 2000);
+      // function
+      function removeData() {
+        setInterval(function () {
+          document.getElementsByClassName("logo")[0].style.display = "none";
+          document.getElementsByClassName(
+            "uk-width-1-1 uk-first-column"
+          )[0].style.display = "none";
+        }, 2000);
+      }
 
       var iFrame = document.getElementById("iFrame");
       iFrame.contentWindow.removeData();
+
+      document
+        .getElementById("iFrame")
+        .contentDocument.defaultView.removeData();
     </script>
   </body>
 </html>
